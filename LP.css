@@ -2,9 +2,8 @@ html{
 width: 100vw;
 margin: 0;
 padding: 0;
+background: white;
 background-color: rgb(255, 255, 255);
-
-
 }
 body{
     background-color: rgb(240, 240, 240);

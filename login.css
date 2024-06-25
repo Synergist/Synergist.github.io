@@ -1,8 +1,6 @@
-html{
-    height: 70vh;
-}
+
 body{
-    height: 80%;
+    padding-bottom: 40px;
 }
 .content{
     margin: 0px;
