@@ -7,17 +7,54 @@
 
     <link rel="stylesheet" href="LP.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="header-nav">
-        <div class="header-nav-logo">
-
+        <div class="header-nav-logo" style="width: 20%;" onclick="location.href = 'index.html'">
+            <h1 class="logo-text">Synergist</h1>
         </div>
 
-        <div>
-
+        <div style="width: 80%; display: flex; justify-content: flex-end; padding: 0px;">
+        
+            <button class="login-register" onclick="location.href = 'login.html'">Login</button>
+            <button  class="login-register" onclick="location.href = 'register.html'" style="background-color: rgb(153, 13, 13);">Register</button>
         </div>
     </div>
+    
+    <div class="marquee" style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; text-align: center; justify-content: center;">
+        <div style="flex-grow: 1; height: 100%;">
+            <img src="marquee4.jpg" height="100%" width="100%" style="object-fit: cover; border-radius: 10px;">
+        </div>
+
+        <div style="width: 100vw; max-width: 400px; height: 40vw; max-height: 100%; border-radius: 10px; background-color: rgb(0, 131, 148); display: flex; align-items: center;">
+            <h2 style="color: white; margin: 40px; font-weight: 600; font-size: clamp(1.5rem, -2rem + 7vw, 1.5rem);">
+                Conoce cada detalle de tu negocio, al instante.
+                ¡Toma el control de tus finanzas!
+            </h2>
+        </div>   
+
+        <div class="multi-rtb" style="width: 100vw; max-width: 100%; height: 30vw; border-radius: 10px; background-color: #d4d4d4; display: flex; flex-direction: row; align-items: center; justify-content: center; flex-wrap: wrap; height: auto; padding: 20px; padding-bottom: 30px;">
+            <div style="width: 28%; min-width: 300px; max-width: 5px; margin: 20px; margin-left: 20px;">
+                <h3>Punto de venta</h3>
+                <h5>Vende desde cualquier dispositivo. Agrega facilmente nuevos productos, codigos de barras, recetas, precios y todo lo necesario para tu negocio.</h5>
+            </div>
+            <div style="width: 28%; min-width: 300px; max-width: 5px;  margin: 20px; margin-left: auto; margin-right: auto;">                <h3>Manejo de Inventarios</h3>
+                <h5>Nunca ha sido tan sencillo llevar control de inventarios, con herramientas como: cantidades por paquete, MOQ, EOQ, rescetas y más.</h5>
+            </div>
+            <div style="width: 28%; min-width: 300px; max-width: 5px;  margin: 20px; margin-right: 20px">               
+                <h3>Utilidades</h3>
+                <h5>Lleva control de tus costos variables y fijos, para proyectar, presupuestar y tener visibilidad clara.</h5>
+            </div>
+        </div>
+            
+       
+
+    </div>
+
     
 </body>
 </html>
