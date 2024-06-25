@@ -55,6 +55,7 @@ body{
     border-radius: 20px;
     background: linear-gradient(146deg, rgba(255,0,0,1) 8%, rgba(217,140,0,1) 100%);
     transition: 0.4s;
+    z-index: 0;
     
 }
 .login-register:hover{
