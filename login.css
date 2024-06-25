@@ -1,0 +1,43 @@
+html{
+    height: 70vh;
+}
+body{
+    height: 80%;
+}
+.content{
+    margin: 0px;
+    padding: 20p;
+    text-align: center;
+    width: 100vw;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    width: 200px;
+    padding: 8x;
+    padding-left: 20px;
+    font-size: 16px;
+    height: 30px;
+    display: inline;
+    border-radius: 10px;
+    border: 0;
+
+}
+
+a,a:hover,a:visited,a:focus,a:active{
+    color: gray;
+    text-decoration: none;
+}
+
+h2{
+   font-weight: 500;
+}
+h3{
+    text-align: right;
+    font-weight: 300;
+}
+
