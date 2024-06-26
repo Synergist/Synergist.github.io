@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synergist -  Nuevo Usuario</title>
     <meta name="description" content="Optimiza tu negocio con Synergist: gestión eficiente de ventas e inventarios desde cualquier dispositivo. Controla costos, proyecta utilidades y toma decisiones estratégicas. ¡Lleva tu negocio al siguiente nivel! Comienza ahora.">
     <meta name="keywords" content="gestión de negocios, optimización de ventas, gestión de inventarios, control de costos, cálculo de utilidades, Synergist, software de negocios, ventas móviles, eficiencia empresarial, herramientas de gestión, crecimiento empresarial">
 
-    <title>Synergist - New User</title>
-
     <link rel="stylesheet" href="LP.css">
+    <link rel="stylesheet" href="login.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,12 +16,14 @@
 
 </head>
 <body>
+
     <div class="header-nav">
         <div class="header-nav-logo" style="width: 20%;" onclick="location.href = 'index.html'">
             <h1 class="logo-text">Synergist<span class="tld">.app</span></h1>
-        </div>
+                </div>
 
         <div style="width: 80%; display: flex; justify-content: flex-end; padding: 0px;">
+        
             <button class="login-register" onclick="location.href = 'login.html'" style="padding: 0; background: rgba(0, 0, 0, 0);">Login</button>
             <button  class="login-register" onclick="location.href = 'register.html'" style="color: white;">Comienza</button>
         </div>
@@ -29,10 +31,58 @@
 
     <div style="height: 80px; box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.2); background-color: white;">
     </div>
+
+    <div class="content" style="display: flex; flex-direction: row; align-items: flex-start; justify-content: flex-start; align-items: flex-start; flex-wrap: wrap; gap: 10px;">
+
+        
+            <div style="width: 50vw; min-width: 300px; flex-grow: 1; height: 40vw; min-height: 30vh; background-image:
+            linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));">
+                <img src="register.jpg" height="100%" width="100%" style="object-fit: cover; border-radius: 10px; z-index: 1;">
+            </div>
+
+
+
+        <div id="form" style="flex-grow: 1; height: 100%;">
+            <h2>Comienza tu aventura</h1>
+
+                <div style="display: inline-block; width: 100px; text-align: left;">
+                    <h3>Nombre:</h3>
+                </div>
+                    <input type="text" placeholder="">
+                <br>
+
+            <div style="display: inline-block; width: 100px; text-align: left;">
+                <h3>Correo:</h3>
+            </div>
+                <input type="text" placeholder="">
+            <br>
     
-    <div class="content">
+            <div style="display: inline-block; width: 100px; text-align: left; margin-top: 20px;">
+                <h3>Contraseña:</h3>
+            </div>
+            <input type="password">
+            <br>
+            <div style="display: inline-block; width: 100px; text-align: left; margin-top: 0px;">
+                <h3>Confirmar:</h3>
+            </div>
+            <input type="password">
+            
+            <br>
+            
+            <br>
+            <br>
+    
+            <button class="login-register" style="color: white; width: 200px;">Registrar</button>
+            <br>
+            <br>
+            <a href="forgot.html">Olvide mi contraseña</a>
+            <br>
+            <br>
+            <a href="register.html">¿No tienes cuenta?</a>
+        </div>
 
+    
     </div>
-
+    
 </body>
 </html>
