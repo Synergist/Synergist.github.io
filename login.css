@@ -1,5 +1,7 @@
 
+
 body{
+    background-color: rgb(210, 210, 210);
     padding-bottom: 40px;
 }
 .content{
@@ -22,7 +24,7 @@ input{
     height: 30px;
     display: inline;
     border-radius: 10px;
-    border: 0;
+    border: 1px solid rgba(128, 128, 128, 0.2);
 
 }
 
@@ -37,5 +39,11 @@ h2{
 h3{
     text-align: right;
     font-weight: 300;
+    font-size: 16px;
 }
-
+h5{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0px;
+}
